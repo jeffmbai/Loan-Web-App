@@ -1,0 +1,204 @@
+body{
+	min-width: 320px;
+	margin: 0px auto;
+	padding: 0px;
+}
+/*styling the header*/
+header{
+	width: 100%;
+	margin-top: 10px;
+	width: 100%;
+}
+#toggle-nav-btn{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-radius: 50%;
+	float: left;
+	display: inline-block;
+}
+#logo{
+	margin-bottom: 20px;
+	float: right;
+	display: inline-block;
+}
+nav {
+	height: 200px;
+	background-color: #1261ea;
+	width: 100%;
+	padding: 20px;
+}
+nav ul li{
+	list-style: none;
+	padding: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+/*styling the main content area*/
+#main-content{
+	width: 100%;
+	height: 500px;
+}
+#content{
+  width: 320px;
+  height:500px;
+  margin: 0px auto;
+}
+#ad{
+	width: 200px;
+	height: 100px;
+	margin:2px auto;
+	padding: 5px;
+}
+#request-form{
+	width: 250px;
+	height: 250px;
+	padding: px;
+	margin: 10px auto;
+	border-radius: 20px;
+	background-color: #f7efef;
+}
+#disclaimer{
+	padding: 10px;
+	font-size: 13px;
+	color: red;
+	text-align: center;
+}
+#amount{
+	text-align: center;
+	font-size: 15px;
+}
+#amount-field{
+	width: 230px;
+	height: 30px;
+	border: solid 1px red;
+	border-radius: 10px;
+}
+#request-loan-submit{
+	height: 25px;
+	padding: 5px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 15pk2x;
+	margin-left: 50px;
+	background-color: #1261ea;
+}
+/*styli g the has loan page */
+#pending-loan-details{
+
+}
+#pending-loan-details a{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+/*stylimg the loan repayment form*/
+#loan-rkepayment-form{
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	margin: 60px auto;
+	border-radius: 20px;
+	border: 1px solid;
+}
+#loan-repayment-form a{
+	color: red;
+	text-align: center;
+}
+.mPesaID{
+	margin-top: 10px;
+	margin-left: 60px;
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	border: solid 1px #1261ea;
+	border-radius: 10px;
+}
+#repay-btn{
+	border: none;
+	background-color: #1261ea;
+	width: 100px;
+	padding: 2px;
+	margin-left: 60px;
+	border-radius: 10px;
+	color: white;
+}
+/*Styling the footer*/
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+footer a{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	display: block;
+}
+/* styling the profile page */
+#profile{
+	max-width: 320px;
+	height: 600px;
+	margin: 0px auto;
+}
+#img{
+	width: 40px;
+	height: 40px;
+	margin: 5px auto;
+	display: inline-block;
+}
+#header #back{
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+	float: right;
+	display: inline-block;
+}
+#profile-info{
+	width: 300px;
+	height: 300px;
+	margin: 10px auto;
+	border-radius: 1px solid red;
+	border-radius: 10px;
+	background-color: #f7efef;
+	padding: 5px;
+}
+#loan-statement{
+	width: 200px;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: #f7efef;
+}
+#loan-statement table tr{
+	font-size: 10px;
+}
+#loan-statement table tr td{
+	padding: 10px;
+}
+/*screen size styling*/
+@media only screen and(min-width: 768px){
+	#toggle-nav-btn{
+		display: none;
+	}
+	nav{
+		display: block;
+		height: 60px;
+		background-color: #1261ea;
+		width: 100%;
+		padding: 20px;
+	}
+	nav ul li{
+		list-style: none;
+		padding: 10px;
+		display: inline;
+	}
+}

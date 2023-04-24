@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<link rel="stylesheet" type="text/css" href="..css/layout.css">
+<main id="main-content">
+	<div id="content">
+		<div id="ad">
+			<p>Hello <?php //echo $firstName; ?><br>You have no pending loan debt, you can now borrow from as little as 100sh and up to 1, 000, 000. sh </p>
+		</div>
+		<div id="request-form">
+			<form name="loan-form" action="controller/loanProcessor.php" method="post">
+			<table>
+				<p id="disclaimer">Minimum loan is KES 100</p>
+					<tr>
+						<p id="amount">Amount:</p>
+						<td></td>
+						<td><input type="number" name="amount" step="1" min="100" id="amount-field"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" name="Submit" value="RequestLoan" id="request-loan-submit"></td>
+					</tr>
+				</table>
+              </form>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/ui.js"></script>
+</main>

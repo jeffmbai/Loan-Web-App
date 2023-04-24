@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title><?php echo $title; ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<link rel="stylesheet" type="text/css" href="view/css/layout.css">
+	<style type="text/css">
+		.hide{
+			display: none;
+			transition: .5s ease-in-out left;
+		}
+		.show{
+			display: block;
+			transition: ease-in-out left;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="toggle-nav-btn">
+			<img src="view/images/toggle_circle.png" width="40" height="40" alt="menu">
+		</div>
+      <!-- website logo-->
+      	<img id="logo" src="view/images/jijenge-loan-logo.jpg" width="150" height="50" alt="jijenge-loan">
+      	<br><br><br><br>
+		<nav class="hide" id="nav-content">
+			<ul>
+				<li><a href="index.php">HOME</a></li>
+				<li><a href="loanstatement.php">LOAN STATEMENT</a></li>
+				<li><a href="profile.php">PROFILE</a></li>
+				<li><a href="index.html">LOG OUT</a></li>
+			</ul>
+		</nav>
+	</header>
+  <hr>
+	<script type="text/javascript" src="view/js/ui.js"></script>

@@ -1,0 +1,119 @@
+body{
+	font-family: arial;
+
+}
+.main{
+	max-width: 100%;
+	height: 600px;
+	margin: 0px auto;
+	background-color: #1261ea;
+}
+#app-name{
+	color: white;
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	padding: 1px;
+}
+#app-name h2{
+	text-align: center;
+}
+#signin-btn{
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	padding: 10px;
+	border-radius: 10px;
+}
+#signin-btn a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+#signup-btn{
+	width: 80px;
+	height: 20px;
+	margin: 10px auto;
+}
+#signup-link{
+	font-size: 15px;
+	text-decoration: none;
+	color: #97ea96;
+	text-align: center;
+}
+#developer-info{
+	color: white;
+	text-align: center;
+	margin-top: 00px;
+}
+/*profile page*/
+
+#loading{
+	width: 60px;
+	height: 60px;
+	margin: 10px auto;
+	background-color: red;
+}
+#loading h1{
+	font-weight: 20px;
+}
+#loan-request-form{
+	width: 250px;
+	height: 300px;
+	padding: 3px;
+	margin: 60px auto;
+	background-color: #f7efef;
+	border-radius: 10px;
+}
+#to-index{
+	color: red;
+	text-align: center;
+	display: none;
+}
+/*Styling login form*/
+.B{
+	background-color: #1261ea;
+}
+#login-form{
+	width: 200px;
+	height: 250px;
+	padding: 20px;
+	margin:60px auto;
+	border-radius: 20px;
+}
+#login-form #pwd-reset{
+	width: 170px;
+	height: 20px;
+	padding: 20px;
+}
+#pwd-reset a{
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+}
+.login{
+	border:none;
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 3px;
+}
+.frm-btn{
+	width: 200px;
+	padding: 5px;
+	margin: 0px auto;
+	border: none;
+	border-radius: 10px;
+	background-color: #94e0ef;
+}
+/*End login form styling*/
+#sign-up-form-area{
+	width: 200px;
+	height: 350px;
+	padding: 20px;
+	margin: 60px auto;
+}
